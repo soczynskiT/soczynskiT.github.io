@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'http://limitless-scrubland-93231.herokuapp.com/v1/tasks/';
-  const trelloApiRoot = 'http://limitless-scrubland-93231.herokuapp.com/v1/trello/';
+  const apiRoot = 'https://limitless-scrubland-93231.herokuapp.com/v1/tasks/';
+  const trelloApiRoot = 'https://limitless-scrubland-93231.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
